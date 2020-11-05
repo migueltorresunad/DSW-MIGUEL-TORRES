@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVI Diseño Sitio Web</title>
+    <link rel="stylesheet" href="misestilos.css">
+</head>
+<body>
+    <div class="logo">
+        <h1 class = "titulo"> Git y GitHub</h1>
+        <td>
+            <img src="img/logo.png" alt="logo">
+        </td>
+    </div>
+
+    <div class="menu">
+        <a href="inicio.html"> Inicio </a> /
+        <a href="conceptos01.html"> Conceptos </a> / 
+        <a href="recursos01.html"> Recursos </a> / 
+        <a href="autoevaluacion01.html"> Autoevaluacion </a> / 
+        <a href="autor.html"> Autor </a> 
+    </div>
+
+    <h2 class="tema">Conceptos 1</h2>
+    <a href="conceptos02.html"> Conceptos 2 </a> 
+
+    <div id="logo-container">
+        <img id="image1" src="img/gitt.png">
+    </div>
+    
+    <table class="tabla3">
+        <tr>
+            <td>
+                <dt><b>Git</b></dt> 
+                <p><dd>Git es un sistema de control de versiones distribuido, diseñado y
+                    desarrollado inicialmente por Linus Torvalds en el 2005 cuando BitKeeper,
+                    el sistema de control de versiones que utilizaban para el desarrollo de
+                    Linux, cambiara su licencia y no permitiera su uso libre. En este post vamos
+                    a explicar qué es Git y cómo se relaciona con Github
+                </dd></p>
+                
+                <p><dd>Git es una aplicación de consola con varios subcomandos que nos 
+                    permiten, entre otras cosas, hacer commits, ver los cambios a los que no les
+                    hemos hecho commit, listar los commits, y ver la diferencia entre commits.
+                </dd></p>
+
+                <dt><b>¿Que es un commits?</b></dt> 
+                <p><dd>Un commit es una fotografía (snapshot) de tu proyecto en un momento
+                    determinado. Un commit tiene una fecha y hora, un mensaje que describe los
+                    cambios que se hicieron desde el último commit, y un autor
+                </dd></p>
+
+            </td>
+        </tr>
+    </table>
+    <table class="img2">
+        <tr>
+            <td>
+                <img src="img/commit.png" alt="commit">
+                <p>Imagen: Commit en Git<p></p>
+            </td>
+        </tr>
+    </table>
+    <table class="tabla3">
+        <tr>
+            <td>
+                <dt><b>¿Comandos esenciales de Git</b></dt> 
+                <p><dd> Git trabaja a modo de repositorio local, y al finalizar cada cambio podrás             guardar en el repositorio remoto de GitHub.</dd></p>
+                
+                <dt><b>Git init</b></dt>
+                <p><dd>Este comando crea el repositorio Git en local para que puedas empezar a trabajar</dd></p>
+                
+                <img src="img/s1.png" alt="s1">
+            
+                <dt><b>Git add</b></dt>
+                <p><dd>Utiliza git add para agregar archivos al índice del proyecto. Este comando se utiliza agregando al nal el nombre del archivo con un espacio al nal del comando como lo ves en
+                    el ejemplo debajo.</dd></p>
+                
+                <img src="img/s2.png" alt="s2">
+            
+                <dt><b>Git commit</b></dt>
+                <p><dd>Guarda los cambios realizardos utilizando git commit. Al guardar podrás especicar un mensaje para identicar el cambio que realizaste o agregar un comentario.</dd></p>
+                
+                <img src="img/s3.png" alt="s3">
+            
+                <dt><b>Git branch</b></dt>
+                <p><dd>Este comando se usa para listar, crear o borrar ramas. Para listar todas las ramas utiliza:</dd></p>
+                
+                <img src="img/s4.png" alt="s4">
+            
+                <dt><b>Git stansh</b></dt>
+                <p></p><dd>Utiliza git stash para guardar cambios que son temporales.</dd></p>
+                
+                <img src="img/s5.png" alt="s5">
+            
+                <dt><b>Git log</b></dt>
+                <p><dd>Podrás ver una lista de los commits realizados.</dd></p>
+                
+                <img src="img/s6.png" alt="s6">
+                
+                <dt><b>Git tag</b></dt>
+                <p><dd>Se utiliza para etiquetar commits especícos, por ejemplo:</dd></p>
+                
+                <img src="img/s7.png" alt="s7">
+                
+                <dt><b>Git diff</b></dt>
+                <p><dd>Usa git di para ver la lista de conictos existentes.</dd></p>
+                
+                <img src="img/s8.png" alt="s8">
+                
+                <dt><b>Git merge</b></dt>
+                <p><dd>Este comando se usa para fusionar un branch activo con otro.</dd></p>
+                
+                <img src="img/s9.png" alt="s9">
+                
+                <dt><b>Git clone</b></dt>
+                <p><dd>Este comando se usa con el propósito de revisar repositorios.</dd></p>
+            
+                <img src="img/ss2.png" alt="ss2">
+               
+                <dt><b>Git push</b></dt>
+                <p><dd>Envía los cambios que se han realizado.</dd></p>
+                
+                <img src="img/ss3.png" alt="ss3">
+                
+                <dt><b>Git pull</b></dt>
+                <p><dd>Fusionar todos los cambios que se han hecho en el repositorio local.</dd></p>
+                
+                <img src="img/ss4.png" alt="ss4">
+            
+                <dt></dt><b>Git fetch</b></dt>
+                <p><dd>Busca todos los recursos de un repositorio remoto que actualmente no están en el directorio local.</dd></p>
+                
+                <img src="img/ss5.png" alt="ss5">
+            
+            </td>
+        </tr>
+    </table>
+    <table class="img2">
+        <tr>
+            <td>
+                <img src="img/comandosgit.png" alt="comandosgit">
+                <p>Imagen: Comandos en Git<p></p>
+            </td>
+        </tr>
+    </table>
+    <table class="tabla3">
+        <tr>
+            <td>
+                <dt><b>¿Como utilizar Git</b></dt> 
+                <p><dd>El flujo más simple de trabajo con Git es el siguiente:</dd></p>
+                
+                <ol>
+                    <li><b></b>Inicializa el repositorio (esto va a crear una carpeta oculta .git dentro del proyecto):</li>
+                </ol>
+                
+                <img src="img/g1.png" alt="g1">
+
+                <ol>
+                    <li><b></b>Trabaja en el código: crea, modica y elimina archivos.
+                    </li>
+                </ol>
+
+                <ol>
+                    <li><b></b>Selecciona los cambios que vas a incluir en el siguiente commit:
+                    </li>
+                </ol>
+                
+                <img src="img/g2.png" alt="g2">
+
+                <ol>
+                    <li><b></b>Puedes incluir todos los cambios con el siguiente comando:
+                    </li>
+                </ol>
+                
+                <img src="img/g3.png" alt="g3">
+
+                <ol>
+                    <li><b></b>Haz commit:
+                    </li>
+                </ol>
+                
+                <img src="img/g4.png" alt="g4">
+
+            </td>
+        </tr>
+    </table>
+    <table class="img2">
+        <tr>
+            <td>
+                <img src="img/repositoriolinea.png" alt="repositoriolinea">
+                <p>Imagen: Repositorio en linea<p></p>
+            </td>
+        </tr>
+    </table>
+    <footer class="footer">
+        <div class="container footer__caption">
+            <div class="footer__copy">
+                <dt><p class="copyright"> GityGitHub &copy; 2020 Todos los Derechos Reservados</p></dt>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer2">
+        <div class="container footer__caption">
+            <div class="footer__copy">
+                <a href="#" class="politica__seguridad politica__seguridad--margin"> Seguridad </a>
+                <a href="#" class="politica__seguridad politica__seguridad--margin"> Privacidad </a>
+                <a href="#" class="politica__seguridad"> Ayuda </a>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer3">
+        <dt><b> Colombia 2020 </b></dt>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+.logo{
+    display: flex;
+    align-items: flex;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0%;
+    background-color: #43C7F4;
+    width: 99%;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body{
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    padding: 5px;
+    background-color:  #F0B429;
+    width: 99%;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-container>img {
+    max-width: 50%;
+}
+
+.tabla{
+    width: 83%;
+    margin: 50px;
+}
+
+.tabla1{
+    width: 96%;
+    margin: 50px;
+}
+
+.tabla2{
+    width: 88%;
+    margin: 50px;
+}
+
+.tabla3{
+    width: 90%;
+    margin: 50px;
+}
+.tema{
+    margin: 55px;
+}
+
+.img{
+    width: 83%;
+    margin: 50px;
+    padding: 0%;
+}
+
+.img2{
+    
+    align-items: flex;
+    justify-content: space-between;
+    height: inherit;
+    
+    width: 80%;
+    margin: 50px;
+}
+
+.sub{
+    justify-content: space-between;
+    text-align: right;
+}
+
+.footer{
+    justify-content: space-between;
+    text-decoration: none;
+    height: inherit;
+    padding: 0%;
+    margin: 50px;
+    text-align: center;
+}
+
+.footer2{
+    
+    height: inherit;
+    padding: 0%;
+    margin: 50px;
+    text-align: center;
+}
+
+.footer3{
+    justify-content: space-between;
+    height: inherit;
+    margin: 50px;
+    text-align: right;
+}
