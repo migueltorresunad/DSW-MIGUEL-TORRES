@@ -1,3 +1,153 @@
+
+.logo{
+    display: flex;
+    align-items: flex;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0%;
+    background-color: #43C7F4;
+    width: 99%;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body{
+    color:#A9A9A9;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.nav li a{
+    
+    text-decoration:none;
+    color:#000;
+    padding:0px 90px;
+    display:block;
+}
+
+.nav li a:hover{
+    background-color: #838383;
+}
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    
+}
+
+.nav li ul li{
+    position: relative;
+}
+
+.nav li ul li{
+    top: 0px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.menu ul, li{
+    list-style: none;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    padding: 5px;
+    background-color:  #F0B429;
+    width: 99%; 
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-container>img {
+    max-width: 50%;
+}
+
+.tabla{
+    width: 83%;
+    margin: 50px;
+}
+
+.tabla1{
+    width: 96%;
+    margin: 50px;
+}
+
+.tabla2{
+    width: 88%;
+    margin: 50px;
+}
+
+.tabla3{
+    width: 90%;
+    margin: 50px;
+}
+
+
+.tema{
+    margin: 55px;
+}
+
+.img{
+    width: 83%;
+    margin: 50px;
+    padding: 0%;
+}
+
+.img2{
+    
+    align-items: flex;
+    justify-content: space-between;
+    height: inherit;
+    
+    width: 80%;
+    margin: 50px;
+}
+
+.sub{
+    justify-content: space-between;
+    text-align: right;
+}
+
+.footer{
+    justify-content: space-between;
+    text-decoration: none;
+    height: inherit;
+    padding: 0%;
+    margin: 50px;
+    text-align: center;
+}
+
+.footer2{
+    
+    height: inherit;
+    padding: 0%;
+    margin: 50px;
+    text-align: center;
+}
+
+.footer3{
+    justify-content: space-between;
+    height: inherit;
+    margin: 50px;
+    text-align: right;
+}
+=======
 .logo{
     display: flex;
     align-items: flex;
@@ -104,3 +254,4 @@
     margin: 50px;
     text-align: right;
 }
+>>>>>>> c9a563b531a8c8ab309f664466860b7177c53593
